@@ -1,5 +1,6 @@
 # Assignment 10: Data Bias (Coding) 
 Analysis and Documentation
+
 Decide how you would like to test the Perspective model for bias. Document your methods, all queries that you make to the API, and all scores received.
 
 Test Method: 
