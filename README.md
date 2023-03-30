@@ -8,7 +8,10 @@ I tested for bias in the Perspective API model to findout weather or not changin
  
 Write a few paragraphs, either in the README or in the notebook, reflecting on what you have learned, what you found, what (if anything) surprised you about your findings, and/or what theories you have about why any biases might exist, if you find they exist. You can also include any questions this assignment raised for you about bias or machine learning. Questions you may wish to answer include:
 
-I examined the impact of different writing styles on the toxicity scores of high-rated toxic phrases. I was curious to see if changing the writing style of these toxic phrases would result in a change in the toxicity score.I found that ceratin writing stylesdo infact change the score. I found changing phrases from lower to upper case does not impact the score in any way. Which is funny to me because before testing my theory I thought capitaztion would have one of the biggest impacts towrads score.
+I examined the impact of different writing styles and words more specifically, words that had to do with culture and race. I then analyzed how the level of the scores changed and what caused it. I found that certain writing styles do change the level of the toxicity score. I noticed that changing phrases from lowercase to uppercase did not affect the score whatsoever. This surprised me, as before I tested my theory, I believed that capitalization would have one of the biggest influences on the toxicity score. The only instance where I found increasing the tone of the text to increase the score was when using an exclamation point, which would slightly increase the toxicity score. When I used culturally specific phrases, Is when I noticed the highest rise in toxicity score. I discovered the more culturally focused the phrase the higher your score will be even if the sentence isn't used in an instance of being harmful.
+
+
+
  
 
 
