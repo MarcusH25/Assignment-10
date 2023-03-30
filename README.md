@@ -16,5 +16,6 @@ The model has a few biases. For starters, it values culturally specific terms, g
 
 
 What were your results?
+
 My findings showed that certain writing styles affect the toxicity score, with conversational style having the most effect and informal style having the least. Exclamation points somewhat raised the scores, while capitalization had no effect. Even in non-harmful circumstances, culturally distinctive terms caused the greatest increase in toxicity ratings. Additional spaces led to poorer overall scores, but commas raised scores slightly in some cases. Regardless of the context, profanity greatly increased the scores. Biases were evident in the model, especially in how it handled phrases with culturally specific words. 
 
