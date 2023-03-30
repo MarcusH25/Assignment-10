@@ -4,7 +4,7 @@ Analysis and Documentation:
 Decide how you would like to test the Perspective model for bias. Document your methods, all queries that you make to the API, and all scores received.
 
 Test Method: 
-I tested for bias in the Perspective API model to findout weather or not changing the writing styles and words would effect the toxicity scores. I used the perspective API and called the get toxcity score function to get the greatest and lowest toxicity ratings, then changed the writing styles and words in the phrases to see how it would impacted the scores.Next I examined the findings to see if there were any trends or biases in the toxicity levels.
+I tested for bias in the Perspective API model to findout weather or not changing the writing styles and words would effect the toxicity scores. I used the perspective API and called the get toxcity score function to get the greatest and lowest toxicity ratings, then changed the writing styles and words in the phrases to see how it would impacted the scores. Next I examined the findings to see if there were any trends or biases in the toxicity levels.
  
 Write a few paragraphs, either in the README or in the notebook, reflecting on what you have learned, what you found, what (if anything) surprised you about your findings, and/or what theories you have about why any biases might exist, if you find they exist. You can also include any questions this assignment raised for you about bias or machine learning. Questions you may wish to answer include:
 
@@ -12,10 +12,10 @@ I examined the impact of different writing styles and words more specifically, w
 
 What biases do you think might exist in the model based on intuitions or public documentation about how the model was created?
 
-The model has a few biases. For starters, it values culturally specific terms, giving them higher toxicity value even in harmless contexts. Second, it does not comprehend the context of phrases, resulting in higher scores. The model is highly sensitive to different writing styles, and the type of style you are writing will result in different scores based on the formality of the style. Lastly, I believe how the data was collected is quite a problem. As the CVS file does not have a collum stating how the phrase was collected it is hard for the model to not have biases as its impossible to understand what instance it's being used in.
+The model has a few biases. For starters, it values culturally specific terms, giving them higher toxicity value even in harmless contexts. Second, it does not comprehend the context of phrases, resulting in higher scores. The model is highly sensitive to different writing styles, and the type of style you are writing will result in different scores based on the formality of the style. Lastly, I believe how the data was collected is quite a problem. As the CVS file does not have a collum stating how the phrase was collected it is hard for the model to not have biases as it's impossible to understand what instance it's being used in.
 
 
 What were your results?
 
-My findings showed that certain writing styles affect the toxicity score, with conversational style having the most effect and informal style having the least. Exclamation points somewhat raised the scores, while capitalization had no effect. Even in non-harmful circumstances, culturally distinctive terms caused the greatest increase in toxicity ratings. Additional spaces led to poorer overall scores, but commas raised scores slightly in some cases. Regardless of the context, profanity greatly increased the scores. Biases were evident in the model, especially in how it handled phrases with culturally specific words. 
+My findings showed that certain writing styles affect the toxicity score, with conversational style having the most effect and informal style having the least. Exclamation points somewhat raised the scores, while capitalization had no effect. Even in non-harmful circumstances, culturally distinctive terms caused the greatest increase in toxicity ratings. Additional spaces led to poorer overall scores, but commas raised scores slightly in some cases. Regardless of the context, profanity greatly increased the scores. Biases was evident in the model, especially in how it handled phrases with culturally specific words. 
 
